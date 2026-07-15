@@ -15,8 +15,10 @@ npm run build
 
 ## 内容
 
-- `data/quotes.json` — 金句（`id/text/author/source/note`）
+- `data/quotes.json` — 金句字段：`id/text/author/source/meaning/pitfall/ask/relatedId`
 - `data/schedule.json` — `YYYY-MM-DD → id`（今日一句）
+
+详情页展示「本意 / 易踩坑 / 读完这一问」+ 相关金句；首页今日一句只展示「读完这一问」。
 
 改完后同步到 `public/data/`（构建读 public）：
 

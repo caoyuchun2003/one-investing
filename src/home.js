@@ -2,7 +2,7 @@ import {
   loadData,
   pickToday,
   quoteHref,
-  renderDetailInner,
+  renderHomeHero,
   renderRow,
 } from './data.js'
 
@@ -16,9 +16,9 @@ async function main() {
     const { quote, date } = pickToday(days, byId, quotes)
 
     todayCard.innerHTML = `
-    ${renderDetailInner(quote)}
+    ${renderHomeHero(quote)}
     <p class="meta" style="margin-top:0.75rem;font-size:0.8rem">日程 ${date}</p>
-    <a class="more" href="${quoteHref(quote)}">查看单页 →</a>
+    <a class="more" href="${quoteHref(quote)}">查看详解 →</a>
   `
 
     const recent = [...quotes].slice(-20).reverse()
