@@ -15,6 +15,8 @@ export default defineConfig({
         main: resolve(root, 'index.html'),
         q: resolve(root, 'q.html'),
         about: resolve(root, 'about.html'),
+        author: resolve(root, 'author.html'),
+        all: resolve(root, 'all.html'),
       },
     },
   },

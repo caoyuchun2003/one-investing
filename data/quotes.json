@@ -9,7 +9,8 @@
       "meaning": "情绪极端时，报价常脱离生意质量。",
       "pitfall": "当成方向赌博口令，不区分「生意坏了」还是「只是吓人」。",
       "ask": "此刻市场吵的是质量，还是只是报价？",
-      "relatedId": "q013"
+      "relatedId": "q013",
+      "personaId": "buffett"
     },
     {
       "id": "q002",
@@ -19,7 +20,8 @@
       "meaning": "付出的是价格，得到的是生意未来产出。",
       "pitfall": "把热闹成交量当成「值得买」的证据。",
       "ask": "你愿意为这份生意永久持有付多少？",
-      "relatedId": "q018"
+      "relatedId": "q018",
+      "personaId": "buffett"
     },
     {
       "id": "q003",
@@ -29,7 +31,8 @@
       "meaning": "能力圈靠边界清晰，不靠圈子显得大。",
       "pitfall": "用「听过很多词」冒充「懂这家生意」。",
       "ask": "三句话写不出它怎么赚钱，就先别碰？",
-      "relatedId": "q011"
+      "relatedId": "q011",
+      "personaId": "buffett"
     },
     {
       "id": "q004",
@@ -39,7 +42,8 @@
       "meaning": "质量优先：先生意耐久，再谈价格合适。",
       "pitfall": "专挑便宜平庸的，用时间换来慢性亏损。",
       "ask": "这家公司十年后还值得拥有吗？",
-      "relatedId": "q018"
+      "relatedId": "q018",
+      "personaId": "buffett"
     },
     {
       "id": "q005",
@@ -49,7 +53,8 @@
       "meaning": "时间放大护城河，也放大结构漏洞。",
       "pitfall": "烂生意「长期拿着」当作信仰。",
       "ask": "多拿五年，放大的是优势还是窟窿？",
-      "relatedId": "q042"
+      "relatedId": "q042",
+      "personaId": "buffett"
     },
     {
       "id": "q006",
@@ -59,7 +64,8 @@
       "meaning": "先避免毁灭性亏损，复利才有资格上场。",
       "pitfall": "忽略回撤与杠杆，只吹收益率故事。",
       "ask": "最坏情形下，你还能按计划持有吗？",
-      "relatedId": "q043"
+      "relatedId": "q043",
+      "personaId": "buffett"
     },
     {
       "id": "q007",
@@ -69,7 +75,8 @@
       "meaning": "短期是情绪投票，长期更接近生意称重。",
       "pitfall": "用日线噪声否决多季度研究结论。",
       "ask": "你的决策时间轴是天，还是生意周期？",
-      "relatedId": "q014"
+      "relatedId": "q014",
+      "personaId": "graham"
     },
     {
       "id": "q008",
@@ -79,7 +86,8 @@
       "meaning": "安全边际是估错时的缓冲，不只是折扣快感。",
       "pitfall": "没有缓冲却用杠杆或满仓表决心。",
       "ask": "你的估值错 30%，后果是否仍可承受？",
-      "relatedId": "q025"
+      "relatedId": "q025",
+      "personaId": "graham"
     },
     {
       "id": "q009",
@@ -89,7 +97,8 @@
       "meaning": "投资结果经常取决于性情：能等、能空、能错过。",
       "pitfall": "高智商当作可以追热点的许可证。",
       "ask": "这次下手，是研究够了还是怕踏空？",
-      "relatedId": "q024"
+      "relatedId": "q024",
+      "personaId": "buffett"
     },
     {
       "id": "q010",
@@ -99,7 +108,8 @@
       "meaning": "增长要有结构优势托底，否则只是忙碌的脆弱。",
       "pitfall": "把营收加速当成护城河已经存在。",
       "ask": "优势从哪来，谁能持续加宽它？",
-      "relatedId": "q031"
+      "relatedId": "q031",
+      "personaId": "local"
     },
     {
       "id": "q011",
@@ -109,7 +119,8 @@
       "meaning": "真风险常是「不知道自己在做什么」。",
       "pitfall": "把波动吓人误当成唯一风险定义。",
       "ask": "这笔仓，你能向外行讲清败亡路径吗？",
-      "relatedId": "q003"
+      "relatedId": "q003",
+      "personaId": "buffett"
     },
     {
       "id": "q012",
@@ -119,7 +130,8 @@
       "meaning": "不懂用分散保命；真懂才谈集中表达优势。",
       "pitfall": "用「集中」表演勇气，掩盖信息不足。",
       "ask": "集中的依据是信息优势，还是最近涨了？",
-      "relatedId": "q040"
+      "relatedId": "q040",
+      "personaId": "buffett"
     },
     {
       "id": "q013",
@@ -129,7 +141,8 @@
       "meaning": "共识拥挤时，赔率往往更差；逆向要看风险是否错价。",
       "pitfall": "为反而反，不核对基本面是否支持。",
       "ask": "右边拥挤的是聪明钱，还是叙事？",
-      "relatedId": "q001"
+      "relatedId": "q001",
+      "personaId": "marks"
     },
     {
       "id": "q014",
@@ -139,7 +152,8 @@
       "meaning": "难以预测点位，却可以准备规则与仓位。",
       "pitfall": "把「我看不准」变成完全不做风控。",
       "ask": "加仓、减仓、重估的触发条件写清了吗？",
-      "relatedId": "q007"
+      "relatedId": "q007",
+      "personaId": "marks"
     },
     {
       "id": "q015",
@@ -149,7 +163,8 @@
       "meaning": "「这次不一样」常是周期换皮；先回到现金与竞争。",
       "pitfall": "用新叙事豁免估值纪律。",
       "ask": "剥离新词之后，旧商业逻辑还成立吗？",
-      "relatedId": "q044"
+      "relatedId": "q044",
+      "personaId": "proverbs"
     },
     {
       "id": "q016",
@@ -159,7 +174,8 @@
       "meaning": "复利怕被一次过度押注打断。",
       "pitfall": "为抬高预期收益率不断加注。",
       "ask": "你的错误预算留了多少？",
-      "relatedId": "q006"
+      "relatedId": "q006",
+      "personaId": "proverbs"
     },
     {
       "id": "q017",
@@ -169,7 +185,8 @@
       "meaning": "买股票是买公司部分所有权。",
       "pitfall": "整天用筹码语言讨论支撑阻力。",
       "ask": "若私有化退市，你是否仍愿当老板？",
-      "relatedId": "q029"
+      "relatedId": "q029",
+      "personaId": "buffett"
     },
     {
       "id": "q018",
@@ -179,7 +196,8 @@
       "meaning": "好资产买贵了，仍可能是坏投资。",
       "pitfall": "「质量」二字免检价格。",
       "ask": "以今天价格锁未来十年，回报还体面吗？",
-      "relatedId": "q004"
+      "relatedId": "q004",
+      "personaId": "proverbs"
     },
     {
       "id": "q019",
@@ -189,7 +207,8 @@
       "meaning": "现金是氧气与选择权，危机时才能接住便宜资产。",
       "pitfall": "景气时把现金当羞辱，扫满权益。",
       "ask": "若市场冻结融资，你能撑过几个季度？",
-      "relatedId": "q033"
+      "relatedId": "q033",
+      "personaId": "buffett"
     },
     {
       "id": "q020",
@@ -199,7 +218,8 @@
       "meaning": "读报表要像尽调：主动找它死掉的理由。",
       "pitfall": "只收集亮点做成多头文案。",
       "ask": "写下三条败亡路径，哪条最可检验？",
-      "relatedId": "q041"
+      "relatedId": "q041",
+      "personaId": "local"
     },
     {
       "id": "q021",
@@ -209,7 +229,8 @@
       "meaning": "护城河要能加固；静态优势会被时间啃掉。",
       "pitfall": "引用昔日壁垒，不看再投入是否衰减。",
       "ask": "今年的投入是在加宽还是吃老本？",
-      "relatedId": "q010"
+      "relatedId": "q010",
+      "personaId": "proverbs"
     },
     {
       "id": "q022",
@@ -219,7 +240,8 @@
       "meaning": "单位经济算不清，故事只是故事。",
       "pitfall": "用总量增长掩盖单个用户越做越亏。",
       "ask": "多一个客户，边际上利润为正吗？",
-      "relatedId": "q039"
+      "relatedId": "q039",
+      "personaId": "local"
     },
     {
       "id": "q023",
@@ -229,7 +251,8 @@
       "meaning": "优先微观生意，而不是刺激的宏观叙事。",
       "pitfall": "用利率会议替代公司研究。",
       "ask": "这家店的钱从谁口袋来、为何稳定？",
-      "relatedId": "q034"
+      "relatedId": "q034",
+      "personaId": "proverbs"
     },
     {
       "id": "q024",
@@ -239,7 +262,8 @@
       "meaning": "耐心是拒绝参加看不懂的热闹；空仓也是仓位。",
       "pitfall": "把空手当成懦弱，强行找标的填满。",
       "ask": "你空着，是没机会还是没看懂？",
-      "relatedId": "q009"
+      "relatedId": "q009",
+      "personaId": "local"
     },
     {
       "id": "q025",
@@ -249,7 +273,8 @@
       "meaning": "便宜若指向永久亏损，折让是慢性毒药。",
       "pitfall": "低估值单指标当作安全。",
       "ask": "便宜来自暂时误解，还是盈利能力衰退？",
-      "relatedId": "q008"
+      "relatedId": "q008",
+      "personaId": "proverbs"
     },
     {
       "id": "q026",
@@ -259,7 +284,8 @@
       "meaning": "管理层诚信与激励是薄却关键的「软护城河」。",
       "pitfall": "只看增长故事，不问谁在利益冲突。",
       "ask": "报表之外，激励是否让人做正确的难事？",
-      "relatedId": "q021"
+      "relatedId": "q021",
+      "personaId": "buffett"
     },
     {
       "id": "q027",
@@ -269,7 +295,8 @@
       "meaning": "预测很难；用赔率与规则替代点位神话。",
       "pitfall": "频繁更新「目标价」当研究产出。",
       "ask": "你的优势是预测，还是买贵时的纪律？",
-      "relatedId": "q014"
+      "relatedId": "q014",
+      "personaId": "proverbs"
     },
     {
       "id": "q028",
@@ -279,7 +306,8 @@
       "meaning": "波动≠永久损失；恐惧波动可能卖掉优质资产。",
       "pitfall": "把每一波回撤都解释成「世界变了」。",
       "ask": "若下跌不改生意质量，你的动作该是什么？",
-      "relatedId": "q006"
+      "relatedId": "q006",
+      "personaId": "proverbs"
     },
     {
       "id": "q029",
@@ -289,7 +317,8 @@
       "meaning": "持仓久期暴露真实信念，不看口号。",
       "pitfall": "朋友圈长期主义，账户高频翻炒。",
       "ask": "过去一年换手，像投资者还是像赌徒？",
-      "relatedId": "q017"
+      "relatedId": "q017",
+      "personaId": "local"
     },
     {
       "id": "q030",
@@ -299,7 +328,8 @@
       "meaning": "利润可调；现金进出更接近事实。",
       "pitfall": "亮丽利润配不上可提取现金仍喊便宜。",
       "ask": "自由现金流与利润长期背离的原因是？",
-      "relatedId": "q051"
+      "relatedId": "q051",
+      "personaId": "proverbs"
     },
     {
       "id": "q031",
@@ -309,7 +339,8 @@
       "meaning": "竞争默认变凶，增长要回答优势从哪补。",
       "pitfall": "「行业空间大」替代护城河论证。",
       "ask": "新进入者拿走份额的路径是什么？",
-      "relatedId": "q010"
+      "relatedId": "q010",
+      "personaId": "proverbs"
     },
     {
       "id": "q032",
@@ -319,7 +350,8 @@
       "meaning": "买错是第一亏；死扛面子是第二亏。",
       "pitfall": "用「长期」掩饰不肯认错。",
       "ask": "何者变了：价格，还是你的买入前提？",
-      "relatedId": "q050"
+      "relatedId": "q050",
+      "personaId": "proverbs"
     },
     {
       "id": "q033",
@@ -329,7 +361,8 @@
       "meaning": "杠杆加速对错两端；错误可能让你没夜可过。",
       "pitfall": "景气时把杠杆当免费午餐。",
       "ask": "下跌 40% 时，杠杆仓你还能执行计划吗？",
-      "relatedId": "q019"
+      "relatedId": "q019",
+      "personaId": "proverbs"
     },
     {
       "id": "q034",
@@ -339,7 +372,8 @@
       "meaning": "信息过载不产生洞察；少看、深问才扩能力圈。",
       "pitfall": "用订阅源数量安慰「我很勤奋」。",
       "ask": "本周删掉哪三个噪音源？",
-      "relatedId": "q023"
+      "relatedId": "q023",
+      "personaId": "local"
     },
     {
       "id": "q035",
@@ -349,7 +383,8 @@
       "meaning": "定价权是抗通胀的结构优势信号之一。",
       "pitfall": "通胀叙事下乱买所偶所谓实物概念。",
       "ask": "涨价后量是否稳？客户有无替代？",
-      "relatedId": "q021"
+      "relatedId": "q021",
+      "personaId": "buffett"
     },
     {
       "id": "q036",
@@ -359,7 +394,8 @@
       "meaning": "研究为了减少后悔，产出应是可打分的一页纸。",
       "pitfall": "收藏研报当成已经研究。",
       "ask": "三个月后重读，你还签得下同结论吗？",
-      "relatedId": "q054"
+      "relatedId": "q054",
+      "personaId": "local"
     },
     {
       "id": "q037",
@@ -369,7 +405,8 @@
       "meaning": "景气练胆，低迷练读报表——功课要反过来排期。",
       "pitfall": "熊市才发誓学习，牛市又全忘掉。",
       "ask": "你的问题清单是牛市攒的，还是现炒的？",
-      "relatedId": "q014"
+      "relatedId": "q014",
+      "personaId": "proverbs"
     },
     {
       "id": "q038",
@@ -379,7 +416,8 @@
       "meaning": "真品牌看切换成本与复购，不看曝光预算。",
       "pitfall": "把广告投放强度误认护城河。",
       "ask": "客户离开的成本是什么？",
-      "relatedId": "q021"
+      "relatedId": "q021",
+      "personaId": "proverbs"
     },
     {
       "id": "q039",
@@ -389,7 +427,8 @@
       "meaning": "故事要落到回本与现金周转，否则只是期权。",
       "pitfall": "远景幻灯片替代资本回收分析。",
       "ask": "股东现金多久转一圈回来？",
-      "relatedId": "q022"
+      "relatedId": "q022",
+      "personaId": "local"
     },
     {
       "id": "q040",
@@ -399,7 +438,8 @@
       "meaning": "指数化是多数人的默认解；主动需要可验证溢价。",
       "pitfall": "主动亏损仍用「我选股」维持身份。",
       "ask": "你的主动优势，证据在哪三个样本？",
-      "relatedId": "q012"
+      "relatedId": "q012",
+      "personaId": "proverbs"
     },
     {
       "id": "q041",
@@ -409,7 +449,8 @@
       "meaning": "财报是滞后可粉饰的地图，却是提问起点。",
       "pitfall": "把附注不当回事，或反过来迷信每一个数字。",
       "ask": "哪三条附注最可能改写结论？",
-      "relatedId": "q020"
+      "relatedId": "q020",
+      "personaId": "local"
     },
     {
       "id": "q042",
@@ -419,7 +460,8 @@
       "meaning": "长期主义包含定期重估质量与价格。",
       "pitfall": "长期=关掉大脑直到爆仓。",
       "ask": "下次强制重估日定在哪一天？",
-      "relatedId": "q005"
+      "relatedId": "q005",
+      "personaId": "proverbs"
     },
     {
       "id": "q043",
@@ -429,7 +471,8 @@
       "meaning": "买前放弃常是最便宜风控；少做错抬曲线。",
       "pitfall": "研究结束后必下单，否则觉得浪费。",
       "ask": "今天主动放弃的标的，理由写清了吗？",
-      "relatedId": "q006"
+      "relatedId": "q006",
+      "personaId": "proverbs"
     },
     {
       "id": "q044",
@@ -439,7 +482,8 @@
       "meaning": "高倍数依赖兑现；分母终要回到盈余与现金。",
       "pitfall": "用「故事阶段」永久豁免估值。",
       "ask": "什么经营指标兑现前，你不扩大仓位？",
-      "relatedId": "q018"
+      "relatedId": "q018",
+      "personaId": "proverbs"
     },
     {
       "id": "q045",
@@ -449,7 +493,8 @@
       "meaning": "复杂公司变简单，靠问对问题，不靠模型套娃。",
       "pitfall": "表格越多越安心，问题定义却糊。",
       "ask": "客户、收入、败亡，一页纸写得清吗？",
-      "relatedId": "q036"
+      "relatedId": "q036",
+      "personaId": "local"
     },
     {
       "id": "q046",
@@ -459,7 +504,8 @@
       "meaning": "他人晒仓是投票机噪声，需用自己的清单过滤。",
       "pitfall": "因羞辱或羡慕同步调仓。",
       "ask": "若无人知晓持仓，你的动作会不同吗？",
-      "relatedId": "q007"
+      "relatedId": "q007",
+      "personaId": "proverbs"
     },
     {
       "id": "q047",
@@ -469,7 +515,8 @@
       "meaning": "研究终点包括敢说不买；拒绝力是能力。",
       "pitfall": "做完材料就有下单义务感。",
       "ask": "最强不买理由是哪一条？",
-      "relatedId": "q043"
+      "relatedId": "q043",
+      "personaId": "local"
     },
     {
       "id": "q048",
@@ -479,7 +526,8 @@
       "meaning": "便宜可等、烂可弃、贵可忍——工具不同。",
       "pitfall": "用一个口令处理三种完全不同的痛苦。",
       "ask": "你现在疼的是哪一种？对应动作是？",
-      "relatedId": "q018"
+      "relatedId": "q018",
+      "personaId": "proverbs"
     },
     {
       "id": "q049",
@@ -489,7 +537,8 @@
       "meaning": "过程目标（看懂哪类生意）可控；点位目标多玄学。",
       "pitfall": "把全年愿望写成指数点位。",
       "ask": "今年能力圈要扩到哪一类生意？",
-      "relatedId": "q003"
+      "relatedId": "q003",
+      "personaId": "local"
     },
     {
       "id": "q050",
@@ -499,7 +548,8 @@
       "meaning": "预留「我可能错了」比预留自信更宝贵。",
       "pitfall": "正确一次后取消纠错权。",
       "ask": "纠错触发条件，事先写在哪里？",
-      "relatedId": "q032"
+      "relatedId": "q032",
+      "personaId": "proverbs"
     },
     {
       "id": "q051",
@@ -509,7 +559,8 @@
       "meaning": "自由现金流接近可提取氧气。",
       "pitfall": "利润表好看就不再追问现金卡住哪。",
       "ask": "现金卡在应收、库存还是资本开支？",
-      "relatedId": "q030"
+      "relatedId": "q030",
+      "personaId": "proverbs"
     },
     {
       "id": "q052",
@@ -519,7 +570,8 @@
       "meaning": "网络效应前有血腥冷启动；临界前叙事多为期权。",
       "pitfall": "用未来网络效应贴现成当下必涨。",
       "ask": "未达临界前，你承担的是研究还是信仰？",
-      "relatedId": "q031"
+      "relatedId": "q031",
+      "personaId": "proverbs"
     },
     {
       "id": "q053",
@@ -529,7 +581,8 @@
       "meaning": "别人加杠杆时保守常被笑；潮水退去才定价。",
       "pitfall": "用「错过」压力把自己推向危险杠杆。",
       "ask": "你的保守，是纪律还是胆小？用规则区分。",
-      "relatedId": "q019"
+      "relatedId": "q019",
+      "personaId": "buffett"
     },
     {
       "id": "q054",
@@ -539,7 +592,8 @@
       "meaning": "落纸的「我懂了」才能被未来打分。",
       "pitfall": "脑子里的清晰感当作已经完成研究。",
       "ask": "把结论写成一页，三个月后重开。",
-      "relatedId": "q036"
+      "relatedId": "q036",
+      "personaId": "local"
     },
     {
       "id": "q055",
@@ -549,7 +603,8 @@
       "meaning": "买卖理由应能写在一张卡片；膨胀即危险。",
       "pitfall": "事后续写十个理由证明当时英明。",
       "ask": "今天卡片上只允许留几条理由？",
-      "relatedId": "q029"
+      "relatedId": "q029",
+      "personaId": "proverbs"
     },
     {
       "id": "q056",
@@ -559,7 +614,8 @@
       "meaning": "工具变快，激励与人性较慢；先读结构再追参数。",
       "pitfall": "版本发布当作投资论点本身。",
       "ask": "谁付钱、谁锁定、谁可替代？",
-      "relatedId": "q023"
+      "relatedId": "q023",
+      "personaId": "proverbs"
     },
     {
       "id": "q057",
@@ -569,7 +625,8 @@
       "meaning": "暂时性困难必须有到期日，防口号无限延期。",
       "pitfall": "把「暂时」变成不可证伪。",
       "ask": "到期未兑现，你的默认动作是什么？",
-      "relatedId": "q042"
+      "relatedId": "q042",
+      "personaId": "local"
     },
     {
       "id": "q058",
@@ -579,7 +636,8 @@
       "meaning": "估值压缩比暴雷更常见，也会惩罚买贵的质量股。",
       "pitfall": "原教旨「只看质量」忽略价格。",
       "ask": "质量没变时，价格贵了你会怎样？",
-      "relatedId": "q018"
+      "relatedId": "q018",
+      "personaId": "proverbs"
     },
     {
       "id": "q059",
@@ -589,7 +647,8 @@
       "meaning": "用「跌 40% 还想加吗」压力测试信念。",
       "pitfall": "高位满仓，低位才发现自己并不想加。",
       "ask": "不想加的标的，为何现在仓位不轻？",
-      "relatedId": "q033"
+      "relatedId": "q033",
+      "personaId": "proverbs"
     },
     {
       "id": "q060",
@@ -599,7 +658,8 @@
       "meaning": "金句是索引与提醒，研究与决策仍靠功课。",
       "pitfall": "收藏金句替代看生意与现金。",
       "ask": "合上金句后，你准备打开哪份报表？",
-      "relatedId": "q036"
+      "relatedId": "q036",
+      "personaId": "local"
     }
   ]
 }

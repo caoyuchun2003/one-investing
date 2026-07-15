@@ -263,14 +263,82 @@ main {
 }
 
 .recent,
-.catalog {
+.catalog,
+.personas {
   padding: 2rem 0 1rem;
   border-top: 1px solid var(--line);
   animation: rise 0.9s ease-out 0.12s both;
 }
 
+.section-lead {
+  margin: -0.35rem 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.persona-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.85rem;
+}
+
+.persona-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.15rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+  background: rgba(232, 242, 238, 0.03);
+  transition: border-color 0.15s ease, transform 0.15s ease, background 0.15s ease;
+}
+
+.persona-card:hover {
+  border-color: color-mix(in srgb, var(--accent-2) 55%, var(--line));
+  background: rgba(126, 184, 162, 0.1);
+  transform: translateY(-2px);
+}
+
+.persona-name {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.persona-blurb {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.persona-count {
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+
+.list-page {
+  max-width: 720px;
+  padding: 2rem 0 3rem;
+  animation: rise 0.7s ease-out both;
+}
+
+.list-head h1 {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 4vw, 2.1rem);
+}
+
+.list-head .eyebrow {
+  margin-bottom: 0.4rem;
+}
+
 .recent h2,
 .catalog h2,
+.personas h2,
 .about h1,
 .about h2 {
   font-family: var(--font-serif);

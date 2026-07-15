@@ -3,16 +3,15 @@ import {
   pickToday,
   quoteHref,
   renderHomeHero,
-  renderRow,
+  renderPersonaWall,
 } from './data.js'
 
 const todayCard = document.getElementById('today-card')
-const recentList = document.getElementById('recent-list')
-const catalogList = document.getElementById('catalog-list')
+const personaGrid = document.getElementById('persona-grid')
 
 async function main() {
   try {
-    const { quotes, byId, days } = await loadData()
+    const { quotes, byId, days, personas } = await loadData()
     const { quote, date } = pickToday(days, byId, quotes)
 
     todayCard.innerHTML = `
@@ -21,9 +20,7 @@ async function main() {
     <a class="more" href="${quoteHref(quote)}">查看详解 →</a>
   `
 
-    const recent = [...quotes].slice(-20).reverse()
-    recentList.innerHTML = recent.map(renderRow).join('')
-    catalogList.innerHTML = [...quotes].map(renderRow).join('')
+    personaGrid.innerHTML = renderPersonaWall(personas, quotes)
   } catch (e) {
     todayCard.innerHTML = `<p class="err">${e.message || e}</p>`
   }

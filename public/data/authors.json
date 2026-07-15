@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "personas": [
+    {
+      "id": "buffett",
+      "name": "沃伦·巴菲特",
+      "blurb": "质量、能力圈与股东理性"
+    },
+    {
+      "id": "graham",
+      "name": "本杰明·格雷厄姆",
+      "blurb": "安全边际与称重机"
+    },
+    {
+      "id": "marks",
+      "name": "霍华德·马克斯",
+      "blurb": "周期、赔率与准备"
+    },
+    {
+      "id": "local",
+      "name": "本站",
+      "blurb": "曹宇春的教学注释向金句"
+    },
+    {
+      "id": "proverbs",
+      "name": "谚语与常引",
+      "blurb": "市场智慧与常引表述合集"
+    }
+  ]
+}

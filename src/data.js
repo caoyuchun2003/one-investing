@@ -8,30 +8,44 @@
  *   pitfall: string,
  *   ask: string,
  *   relatedId?: string,
+ *   personaId?: string,
  *   note?: string,
  * }} Quote
+ *
+ * @typedef {{ id: string, name: string, blurb: string }} Persona
  */
 
 export async function loadData() {
-  const [quotesRes, scheduleRes] = await Promise.all([
+  const [quotesRes, scheduleRes, authorsRes] = await Promise.all([
     fetch('/data/quotes.json'),
     fetch('/data/schedule.json'),
+    fetch('/data/authors.json'),
   ])
   if (!quotesRes.ok || !scheduleRes.ok) {
     throw new Error('无法加载金句数据')
   }
   const quotesFile = await quotesRes.json()
   const scheduleFile = await scheduleRes.json()
+  const authorsFile = authorsRes.ok
+    ? await authorsRes.json()
+    : { personas: [] }
+
   /** @type {Quote[]} */
   const quotes = (quotesFile.quotes || []).map(normalizeQuote)
   const byId = Object.fromEntries(quotes.map((q) => [q.id, q]))
-  return { quotes, byId, days: scheduleFile.days || {} }
+  /** @type {Persona[]} */
+  const personas = authorsFile.personas || []
+  return {
+    quotes,
+    byId,
+    days: scheduleFile.days || {},
+    personas,
+  }
 }
 
 /** @param {Quote} raw */
 function normalizeQuote(raw) {
   if (raw.meaning && raw.pitfall && raw.ask) return raw
-  // legacy single note
   const note = raw.note || ''
   return {
     ...raw,
@@ -41,7 +55,6 @@ function normalizeQuote(raw) {
   }
 }
 
-/** Asia/Shanghai calendar date YYYY-MM-DD */
 export function todayKey(timeZone = 'Asia/Shanghai') {
   return new Intl.DateTimeFormat('en-CA', {
     timeZone,
@@ -75,6 +88,10 @@ export function resolveRelated(q, byId, quotes) {
   if (q.relatedId && byId[q.relatedId] && q.relatedId !== q.id) {
     return byId[q.relatedId]
   }
+  const samePersona = quotes.find(
+    (x) => x.personaId && x.personaId === q.personaId && x.id !== q.id,
+  )
+  if (samePersona) return samePersona
   const sameAuthor = quotes.find(
     (x) => x.author === q.author && x.id !== q.id,
   )
@@ -87,6 +104,11 @@ export function quoteHref(q) {
   return `/q.html?id=${encodeURIComponent(q.id)}`
 }
 
+/** @param {string} id */
+export function authorHref(id) {
+  return `/author.html?id=${encodeURIComponent(id)}`
+}
+
 /** @param {Quote} q */
 export function renderRow(q) {
   return `<a class="quote-row" href="${quoteHref(q)}">
@@ -95,7 +117,28 @@ export function renderRow(q) {
   </a>`
 }
 
-/** Home hero: one-line ask only */
+/**
+ * @param {Persona[]} personas
+ * @param {Quote[]} quotes
+ */
+export function renderPersonaWall(personas, quotes) {
+  const counts = {}
+  for (const q of quotes) {
+    const id = q.personaId || 'proverbs'
+    counts[id] = (counts[id] || 0) + 1
+  }
+  return personas
+    .map((p) => {
+      const n = counts[p.id] || 0
+      return `<a class="persona-card" href="${authorHref(p.id)}">
+        <span class="persona-name">${escapeHtml(p.name)}</span>
+        <span class="persona-blurb">${escapeHtml(p.blurb)}</span>
+        <span class="persona-count">${n} 条</span>
+      </a>`
+    })
+    .join('')
+}
+
 /** @param {Quote} q */
 export function renderHomeHero(q) {
   return `
@@ -109,7 +152,6 @@ export function renderHomeHero(q) {
 }
 
 /**
- * Detail: three blocks + related
  * @param {Quote} q
  * @param {Quote | null} related
  */
@@ -145,7 +187,7 @@ export function renderDetailInner(q, related) {
   `
 }
 
-function escapeHtml(s) {
+export function escapeHtml(s) {
   return String(s)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')

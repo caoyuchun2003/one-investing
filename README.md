@@ -15,17 +15,11 @@ npm run build
 
 ## 内容
 
-- `data/quotes.json` — 金句字段：`id/text/author/source/meaning/pitfall/ask/relatedId`
-- `data/schedule.json` — `YYYY-MM-DD → id`（今日一句）
+- `data/quotes.json` — `id/text/author/source/meaning/pitfall/ask/relatedId/personaId`
+- `data/authors.json` — 五主牌人物（巴菲特 / 格雷厄姆 / 马克斯 / 本站 / 谚语与常引）
+- `data/schedule.json` — `YYYY-MM-DD → id`
 
-详情页展示「本意 / 易踩坑 / 读完这一问」+ 相关金句；首页今日一句只展示「读完这一问」。
-
-改完后同步到 `public/data/`（构建读 public）：
-
-```bash
-cp data/*.json public/data/
-```
-
+首页：今日一句 + 人物墙。人物页 `author.html`，全部 `all.html`。详情：本意 / 易踩坑 / 读完这一问 + 相关金句。
 ## 赞赏码
 
 可选放入：
