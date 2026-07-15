@@ -61,7 +61,10 @@ export function renderDetailInner(q) {
   return `
     <p class="quote-text">「${escapeHtml(q.text)}」</p>
     <p class="meta">${escapeHtml(q.author)} · ${escapeHtml(q.source)}</p>
-    <p class="note">${escapeHtml(q.note)}</p>
+    <div class="note-block">
+      <p class="note-label">注</p>
+      <p class="note">${escapeHtml(q.note)}</p>
+    </div>
   `
 }
 
