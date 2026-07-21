@@ -20,12 +20,6 @@ npm run build
 - `data/schedule.json` — `YYYY-MM-DD → id`
 
 首页：今日一句 + 人物墙。人物页 `author.html`，全部 `all.html`。详情：本意 / 易踩坑 / 读完这一问 + 相关金句。
-## 赞赏码
-
-可选放入：
-
-- `public/pay-wechat.jpg`
-- `public/pay-alipay.jpg`
 
 ## 部署
 
